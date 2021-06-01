@@ -1,0 +1,11 @@
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Visual Studio Code
+.vscode
+
+# MacOS
+.DS_Store
+
+# pycache folder
+core/__pycache__
