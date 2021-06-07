@@ -18,7 +18,7 @@ Project status : work in progress
  
 ## Introduction
 ### Description
-Written in AI, this is an AI-powered background removal service project for *Faktion* & *BeCode*.
+Written in AI, this is an AI-powered background removal service project.
 
  
 ### Objectives
@@ -120,6 +120,5 @@ from Theano 2.27 promotion at [BeCode](https://becode.org).
  
  
 We would like to thank:
-- [Faktion](https://www.faktion.com/) for the opportunity to work on this use-case
 - Lijun Wang, Huchuan Lu, Yifan Wang ,Mengyang Feng, Dong Wang, Baocai Yin, Xiang Ruan for the *DUTS* dataset
 - and our colleagues and coaches at [BeCode](https://becode.org) for their help and guidance.
