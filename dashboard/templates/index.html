@@ -77,16 +77,17 @@
                             <br/>
                             <p style="font-family: Serif; font-size: 20px; color:#b3a8a5;"> Removing background never been this easy.</p>
                             <br/>
-                            <img src="../images/example_1.png" class="card-img-top" alt="your_image_here" width="250" height="450">
+                            <img src="{{url_for('static', filename = 'images/example_1.png')}}" class="card-img-top" alt="your_image_here" width="250" height="450">
                         </div>
                         
                         <!-- upload section-->
                         <div class="col-md-auto" >
                             <br/><br/><br/>
-                            <div class="card" style="width: 20rem; ">
-                                <img src="../images/your_image_here.png" class="card-img-top" alt="your_image_here" width="100" height="200">
+                            <div class="card" style="width: 20rem; height: 20rem;">
+                                
 
-                            <form class="row g-3" action="{{ url_for('rm_bg')}}" method="POST" enctype = "multipart/form-data">
+                            <form class="row g-3" action="{{ url_for('home')}}" method="POST" enctype = "multipart/form-data">
+                                <img src="{{url_for('static', filename = 'images/your_image_here.png')}}" class="card-img-top" alt="your_image_here" width="100" height="200">
                                 <div class="card-body">
                                     <input type="file" name="file_upload" class="form-control-file btn-sm" >
                                     <div class="d-grid gap-2 col-3 mx-auto">

@@ -52,14 +52,19 @@
                         margin: 0 auto; /* Added */
                         float: none; /* Added */
                         margin-bottom: 10px; /* Added */">
-
-                            <img src="../images/example_1.JPG" class="card-img-top" alt="background_removed">
+                            
+                            <!--result images-->
+                            <img src="data:image/jpeg;base64,{{ bgrm_result }}" lass="card-img-top" alt="background_removed">
                             
                         <!-- Add icon library -->
                         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
                         <!-- Auto width -->
-                        <button class="btn btn-primary"><i class="fa fa-download"></i> Download</button>
+                        <a href="data:image/jpeg;base64,{{ bgrm_result }}" download="Background_Removed">
+                            <button href="data:image/jpeg;base64,{{ bgrm_result }}" download="Background_Removed" class="btn btn-primary"><i class="fa fa-download"></i> Download</button>
+                        </a>
+                        
+                        
                         </div>
 
                         <!--
