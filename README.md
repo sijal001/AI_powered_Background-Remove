@@ -102,13 +102,13 @@ Remove_Image_Background
 
 ## **Result Preview**
 
-<img src="./exploration/images/lady.jpeg" alt="intial page" width="350"> 
+<img src="./exploration/images/lady.jpeg" alt="intial page" width="300"> 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./exploration/images/lady_pro_1.JPG" alt="intial page" width="350"> 
+<img src="./exploration/images/lady_pro_1.JPG" alt="intial page" width="300"> 
 <br/><br/>
-<img src="./exploration/images/lady_pro_2.JPG" alt="intial page" width="350">
+<img src="./exploration/images/lady_pro_2.JPG" alt="intial page" width="300">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./exploration/images/lady_pro_3.JPG" alt="intial page" width="350">
+<img src="./exploration/images/lady_pro_3.JPG" alt="intial page" width="300">
 
 [**↥ Back To The Top**](#table-of-contents)
 
