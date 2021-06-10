@@ -1,6 +1,6 @@
 .vscode/
 exploration/dataset/*
 exploration/.ipynb_checkpoints/
-main/U-2-Net/*
-main/MODNet/*
+main/U-2-Net/
+main/MODNet/
 __pycache__/

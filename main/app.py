@@ -10,6 +10,8 @@ import base64
 import shutil
 import timeit
 import torch
+import gdown
+import git
 import sys
 import io
 import os
@@ -18,11 +20,11 @@ import os
 
 # if repository not already in directory, clone it
 if not os.path.exists('U-2-Net'):
-  !git clone https://github.com/xuebinqin/U-2-Net.git
+    git.Git(os.getcwd()).clone("https://github.com/xuebinqin/U-2-Net.git")
 
 # if repository not already in directory, clone it
 if not os.path.exists('MODNet'):
-  !git clone https://github.com/ZHKKKe/MODNet.git
+    git.Git(os.getcwd()).clone("https://github.com/ZHKKKe/MODNet.git")
 
 # create the folder to save model
 if not os.path.exists(r'./U-2-Net/saved_models/u2net/'):
