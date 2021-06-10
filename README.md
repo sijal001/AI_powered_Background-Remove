@@ -71,12 +71,7 @@ For portrait matting without the green screen1, existing works either require au
 
 1. After the required library install basic application can be run by just running `app.py` python script.
 
-2. **(optional: <u>separate training set</u>)** Download import file and move it to `\yoga_gesture_detection\pose_recognition_data\training data\training frames\videos`
-3. **(optional: <u>generate different model</u>)** Inside `_Project_Analysis` directory run `body_pose_detection.ipynb`
-	* Frame to video
-	* Train model separately
-	* generate different models for personal testing
-4. Run the `app.py` file to host the application locally.
+2. 
 
 
 [**↥ Back To The Top**](#table-of-contents)
