@@ -1,4 +1,5 @@
-dataset/*
-U-2-Net/*
-MODNet/*
-saved_models/*
+exploration/dataset/*
+exploration/.ipynb_checkpoints/
+main/U-2-Net/*
+main/MODNet/*
+__pycache__/
