@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jupyter Notebook
 .ipynb_checkpoints
 
@@ -9,3 +10,11 @@
 
 # pycache folder
 core/__pycache__
+=======
+.vscode/
+exploration/dataset/*
+exploration/.ipynb_checkpoints/
+main/U-2-Net/*
+main/MODNet/*
+__pycache__/
+>>>>>>> dev
