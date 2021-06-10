@@ -43,10 +43,11 @@ def home():
         filename = secure_filename(file.filename)
         file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
         result_path = result_image()
-
+        
         im = Image.open(result_path)
         data = io.BytesIO()
         im.save(data, result_path.split(".")[-1])
+        print(data, result_path.split(".")[-1])
         encoded_img_data = base64.b64encode(data.getvalue())
 
         # remove image from dir "upload"
