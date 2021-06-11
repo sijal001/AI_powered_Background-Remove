@@ -9,3 +9,9 @@
 
 # pycache folder
 core/__pycache__
+
+# dataset folders
+core/assets/dataset
+
+# checkpoints
+*.pth
