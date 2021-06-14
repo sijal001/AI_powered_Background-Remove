@@ -126,7 +126,7 @@ Remove_Image_Background
 ## **Result Preview**
 
 <img src="./exploration/images/image_progress_1.PNG" alt="initial page" > 
-<br/><br/><br/>
+<br/>
 <img src="./exploration/images/image_progress_2.PNG" alt="initial page" > 
 
 [**↥ Back To The Top**](#table-of-contents)
